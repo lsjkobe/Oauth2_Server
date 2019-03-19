@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/old_classmate
+    password: p
+    username: postgres
+
+  redis:
+    host: localhost
+    port: 6379
+    password: li936339745
+    timeout: 1000
+    database: 0
+    jedis:
+      pool:
+        max-idle: 8
+        min-idle: 2
+        max-wait: 100
+        max-active: 10
+
+server:
+  port: 8088
+security:
+  oauth2:
+    client:
+      client-id: leo
+      client-secret: 123456
+      scope: app
+      access-token-uri: ${auth-server-url}/oauth/token
+      user-authorization-uri: ${auth-server-url}/oauth/authorize
+    resource:
+      token-info-uri: ${auth-server-url}/oauth/check_token
