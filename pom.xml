@@ -35,7 +35,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
         <!--start java 11 javax/xml/bind/JAXBException-->
         <dependency>
             <groupId>javax.xml.bind</groupId>
