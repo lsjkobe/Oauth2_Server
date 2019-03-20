@@ -11,6 +11,7 @@
     <groupId>com.leoli</groupId>
     <artifactId>oauth2_server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
     <name>oauth2_server</name>
     <description>Demo project for Spring Boot</description>
 
