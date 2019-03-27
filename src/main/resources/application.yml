@@ -5,7 +5,7 @@ spring:
     username: postgres
 
   redis:
-    host: localhost
+    host: 149.28.142.66
     port: 6379
     password: li936339745
     timeout: 1000
